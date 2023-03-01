@@ -15,11 +15,11 @@ public class Penguin extends Bird implements Swim {
     }
 
     public int getDepths() {
-        return depths;
+        return this.depths;
     }
 
     public boolean isSwimming() {
-        return swimming;
+        return this.swimming;
     }
 
     /**
